@@ -34,7 +34,7 @@ You can test the generated signature with this [tool](https://m4b-url-signer.app
   s.resource_bundles = {
     'GMUrlSigner' => ['Pod/Assets/*.png']
   }
-  s.header_dir = name
+# s.header_dir = name
 
 #src_dir = 'Pod/Classes'
 #s.source_files = "#{src_dir}/*.{h,m}"

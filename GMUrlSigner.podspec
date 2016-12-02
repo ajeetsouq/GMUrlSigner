@@ -24,7 +24,7 @@ You can test the generated signature with this [tool](https://m4b-url-signer.app
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "youssman" => "haiti.youssef@gmail.com" }
-  s.source           = { :git => "https://github.com/youssman/GMUrlSigner.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ashishsouq/GMUrlSigner.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/YHaiti'
 
   s.platform     = :ios, '6.0'

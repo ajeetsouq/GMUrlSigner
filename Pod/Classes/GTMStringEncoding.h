@@ -17,7 +17,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GTMDefines.h"
+#import "SQGTMDefines.h"
 
 // A generic class for arbitrary base-2 to 128 string encoding and decoding.
 @interface GTMStringEncoding : NSObject {

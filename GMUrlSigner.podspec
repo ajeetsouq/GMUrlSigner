@@ -30,15 +30,15 @@ You can test the generated signature with this [tool](https://m4b-url-signer.app
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  #s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'GMUrlSigner' => ['Pod/Assets/*.png']
   }
   s.header_dir = name
 
-  src_dir = 'Pod/Classes'
-  s.source_files = "#{src_dir}/*.{h,m}"
-  s.header_mappings_dir = "#{src_dir}"
+#src_dir = 'Pod/Classes'
+#s.source_files = "#{src_dir}/*.{h,m}"
+#s.header_mappings_dir = "#{src_dir}"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

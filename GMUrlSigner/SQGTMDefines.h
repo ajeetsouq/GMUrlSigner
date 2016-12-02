@@ -1,5 +1,5 @@
 //
-// GTMDefines.h
+// SQGTMDefines.h
 //
 //  Copyright 2008 Google Inc.
 //

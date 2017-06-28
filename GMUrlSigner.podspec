@@ -27,7 +27,7 @@ You can test the generated signature with this [tool](https://m4b-url-signer.app
   s.source           = { :git => "https://github.com/ashishsouq/GMUrlSigner.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/YHaiti'
 
-  s.platform     = :ios, '6.0',:watchos, '2.0'
+  s.platforms     = { :ios => '8.0', :watchos => '2.0' } 
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
